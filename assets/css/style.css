@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0:
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    color: #39a6b2;
+}
+/*apply style to the header*/
+ header {
+    background-color:#39a6b2;
+    padding: 20px 35px;
+ }
+
+ header h1{
+     font-weight: heavy;
+     font-size: 36;
+     color: #fce138;
+     margin: 0;
+     display: inline;
+     
+ }
+
+ header a{
+     color: #fce138;
+     text-decoration: none;
+ }
+
+ /* place the navigation to the upper right of the page*/
+ header nav{
+     float: right;
+     margin: 7px O;
+ }
+
+ /* make the nav headings display in a row horizontally*/
+ header nav ul li{
+     display:inline;
+ }
+
+/* spread the navigation headings out with bigger font*/
+ nav ul li a{
+     font-weight: lighter;
+     font-size: 22px;
+     margin: 0 30px;
+ }
