@@ -12,3 +12,5 @@ https://gribbler25.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Sarah Nguyen
+
+### ©️2019 Run Buddy, Inc 
