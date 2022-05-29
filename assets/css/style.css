@@ -74,7 +74,7 @@ body{
  /* hero section styling */
 .hero {
      height: 600px;
-     background-image:url("/assets/images/hero-bg.jpg");
+     background-image:url("../images/hero-bg.jpg");
      background-size: cover;
     background-position: center;
     position:relative;
@@ -220,12 +220,11 @@ body{
 .contact-info iframe{
     height: 400px;
     width: 400px;
- /* ??   float: left; */
 }
 .contact{
     background-color: #024e76;
     text-align:center;
-    /*??overflow: auto;*/
+    
 }
 .contact h2{
     color: yellow;
@@ -234,12 +233,6 @@ body{
     color: yellow;
     font-size: 32px;
 }
-/*
-??.contact-info div{
-    float:left;
-    text-align: justify;
-}
-*/
 .contact-info div{
     display: inline-block;
     width: 410px;
@@ -257,18 +250,3 @@ body{
 .contact-info a{
     color: yellow;
 }
-
-
-
-
-
-
-/* what the coursework gives us: 
-.contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
-    color: white;
-  }*/
