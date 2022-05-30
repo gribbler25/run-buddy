@@ -8,7 +8,7 @@ body{
     font-family: Helvetica, Arial, sans-serif;
     color: #39a6b2;
 }
-/*apply style to the header*/
+/*flexbox header styling*/
  header {
     display:flex;
     justify-content: space-between;
@@ -16,26 +16,19 @@ body{
     background-color:#39a6b2;
     padding: 20px 35px;
  }
-
  header h1{
      font-weight: bold;
      font-size: 36;
      color: #fce138;
      margin: 0;
  }
-
  header a{
      color: #fce138;
      text-decoration: none;
  }
-
- /* place the navigation to the upper right of the page*/
  header nav{
-     
      margin: 7px O;
  }
-
- /* make the nav headings display in a row horizontally*/
 header nav ul{
     display: flex;
     flex-wrap: wrap;
@@ -43,17 +36,13 @@ header nav ul{
     align-items: center;
     list-style: none;
 }
-
-/* spread the navigation headings out with bigger font*/
  nav ul li a{
      font-weight: lighter;
      font-size: 1.55vw;
      margin: 0 30px;
  }
 
-
-
- /* styling the footer*/
+ /* flexbox footer styling*/
  footer{
      display: flex;
      justify-content: space-between;
@@ -74,11 +63,11 @@ header nav ul{
  footer a{
      color: #024e76;
  }
-
  section{
      padding: 60px;
  }
- /* hero section styling */
+
+ /* flexbox hero section styling */
 .hero {
     display:flex;
     justify-content: center;
@@ -118,7 +107,6 @@ header nav ul{
  .hero-form p{
      margin: 5px 0 15px 0;
  }
-
  .form-input{
      font-size: 16px;
      display: block;
@@ -134,13 +122,9 @@ header nav ul{
     color: yellow;
     padding: 10px 20px;
  }
-
 /* end hero section styling*/
 
-.intro{
-    
-
-}
+/*intro and flexbox steps section styles*/
 .intro p{
     line-height: 1.7;
     color: #39a6b2;
@@ -153,15 +137,14 @@ header nav ul{
     background:#fce138;
 }
 .step{
+    display:flex;
+    flex-wrap: wrap;
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
     border-bottom: 1px solid #39a6b2;
-    display:flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-     
 }
 .step h3{
     font-size: 46px;
@@ -202,9 +185,17 @@ header nav ul{
     color: #024e76;
     border-bottom: solid 3px;
 }
+.section-title2{
+    padding-bottom: 20px;
+    margin: 0 auto 35px auto;
+    text-align:center;
+    width: 50%;
+    font-size: 55px;
+    color: #fce138;
+    border-bottom: solid 3px;
+}
 
 /*Trainers section styling*/
-
 .trainers{
     display: flex;
     flex-wrap: wrap;
@@ -233,18 +224,28 @@ header nav ul{
     font-size: 22px;
     margin-bottom: 15px;
 }
-
 .trainer-bio p{
     font-size: 17px;
 }
-        /* reach out styles start*/
+
+/* reach out section styles start*/
+.contact-info{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.contact-info > *{
+    margin: 15px;
+    flex: 1;
+}
 .contact-info iframe{
     height: 400px;
-    width: 400px;
 }
 .contact{
     background-color: #024e76;
-
+}
+.contact-info div{
+    color: #fff;
 }
 .contact h2{
     color: yellow;
@@ -253,26 +254,36 @@ header nav ul{
     color: yellow;
     font-size: 32px;
 }
-.contact-info div{
-    display: inline-block;
-    width: 410px;
-    color: white;
-    text-align: left;
-    margin: 30px 0 0 60px;
-    vertical-align: top;
-}
 .contact-info p, .contact-info address{
     margin: 20px 0;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.5;
     font-style: normal;
 }
 .contact-info a{
     color: yellow;
 }
+.contact-form input, .contact-form textarea{
+    border: 1px solid #024e76;
+    display: block;
+    padding 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+button{
+    width: 100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px; 
+}
 
 /*utility classes*/
-
 .primary-border{
     border-color: #fce138;
 }
