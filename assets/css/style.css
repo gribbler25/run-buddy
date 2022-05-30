@@ -10,6 +10,9 @@ body{
 }
 /*apply style to the header*/
  header {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
     background-color:#39a6b2;
     padding: 20px 35px;
  }
@@ -19,7 +22,6 @@ body{
      font-size: 36;
      color: #fce138;
      margin: 0;
-     display: inline;
  }
 
  header a{
@@ -29,7 +31,7 @@ body{
 
  /* place the navigation to the upper right of the page*/
  header nav{
-     float: right;
+     
      margin: 7px O;
  }
 
