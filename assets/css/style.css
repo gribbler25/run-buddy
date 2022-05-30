@@ -36,16 +36,22 @@ body{
  }
 
  /* make the nav headings display in a row horizontally*/
- header nav ul li{
-     display:inline;
- }
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
 
 /* spread the navigation headings out with bigger font*/
  nav ul li a{
      font-weight: lighter;
-     font-size: 22px;
+     font-size: 1.55vw;
      margin: 0 30px;
  }
+
+
 
  /* styling the footer*/
  footer{
